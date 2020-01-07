@@ -20,3 +20,8 @@ server:
   port: 8082
   
 version: userProdier02-dev
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info
